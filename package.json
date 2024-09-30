@@ -1,7 +1,24 @@
 {
-	"devDependencies": {
-		"tailwindcss": "^3.4.13",
-		"postcss": "^8.4.47",
-		"autoprefixer": "^10.4.20"
-	}
+  "name": "bangla-quran-audio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.13",
+    "node-id3": "^0.2.6",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
 }
